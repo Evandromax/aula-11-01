@@ -1,0 +1,28 @@
+create table usuarios (
+	id int not null auto_increment primary key,
+    nome varchar(50),
+    telefone1 int(12),
+    telefone2 int(12),
+    email varchar(50),
+    email_recup varchar(50),
+    data_nasc int(10),
+    cidade_nasc varchar(50),
+    bairro_nasc varchar(50),
+    cpf int(11),
+    rg int(9),
+    data_emi_rg int(8),
+    rua varchar(50),
+    numero int(10),
+    complemento varchar(10),
+    bairro varchar(30),
+    cidade varchar(30),
+    cep int(11),
+    logar varchar(50),
+    senha varchar (50),
+    profissao varchar (50),
+    nivel_escola varchar (15),
+    estado_civil varchar (12),
+    altura int(12),
+    peso int(12)
+    
+);
